@@ -1,0 +1,14 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Study Hub — 20 Week Dashboard</title><link rel="stylesheet" href="css/styles.css"></head><body>
+<header class="topbar"><a class="brand" href="index.html"><span class="brand-mark">S</span> Study Hub</a><nav><a href="#home">Home</a><a href="#weeks">20 Weeks</a><a href="#tools">Tools</a><a href="#links">Quick Access</a></nav></header>
+<main id="home"><section class="hero"><div><p class="eyebrow">YOUR 20-WEEK WORKSPACE</p><h1>Learn. Build.<br><span>Keep moving.</span></h1>
+<p class="hero-copy">A clean home page for your weekly work, useful tools, and the websites you want one click away.</p><div class="hero-actions"><a class="button primary" href="weeks/week-4.html">Open Week 4</a><a class="button ghost" href="#links">Manage quick access</a></div></div>
+<div class="hero-card"><div class="progress-ring"><strong>4</strong><small>/ 20</small></div><p>Current week</p><span>Week 4 — Connect, change, explain</span></div></section>
+<section class="section" id="weeks"><div class="section-heading"><div><p class="eyebrow">ROADMAP</p><h2>20 weeks</h2></div><label class="search">⌕ <input id="weekSearch" placeholder="Find a week..."></label></div><div class="week-grid" id="weekGrid"></div></section>
+<section class="section" id="tools"><div class="section-heading"><div><p class="eyebrow">WORKSPACE</p><h2>Tools</h2></div></div><div class="tool-grid">
+<article class="tool-card"><div class="icon">✓</div><h3>Task checklist</h3><p>Keep small tasks visible while you work.</p><div class="task-row"><input id="taskInput" placeholder="Add a task..."><button id="addTask">Add</button></div><ul id="taskList"></ul></article>
+<article class="tool-card"><div class="icon">⏱</div><h3>Focus timer</h3><p>Run a simple 25-minute focus session.</p><div class="timer" id="timer">25:00</div><div class="timer-actions"><button id="startTimer">Start</button><button id="resetTimer">Reset</button></div></article>
+<article class="tool-card"><div class="icon">✎</div><h3>Quick notes</h3><p>Your notes are saved in this browser.</p><textarea id="notes" placeholder="Write something to remember..."></textarea><small id="saveStatus">Saved automatically</small></article>
+</div></section>
+<section class="section" id="links"><div class="section-heading"><div><p class="eyebrow">YOUR LINKS</p><h2>Quick access</h2></div><button class="button primary" id="addLink">+ Add website</button></div><div class="link-grid" id="linkGrid"></div><p class="hint">Add your own websites and they will stay saved on this browser.</p></section>
+</main><footer>Study Hub · 20-week dashboard</footer><script src="js/app.js"></script></body></html>
