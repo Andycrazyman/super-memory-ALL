@@ -1,0 +1,16 @@
+STUDY HUB - NEW LAUNCHER
+
+To start the AI/server version:
+1. Make sure Node.js 20+ is installed.
+2. Keep your private .env file in this folder.
+3. Double-click start-study-hub.vbs.
+4. Your browser should open to http://127.0.0.1:3000.
+
+If Windows asks which app should open the .vbs file, choose Windows Script Host / Microsoft Windows Based Script Host.
+
+If Smart App Control still blocks the launcher, do not disable Smart App Control. Open index.html instead for the no-server version, or use Command Prompt:
+  cd /d "THIS FOLDER"
+  node server.js
+Then open http://127.0.0.1:3000
+
+Never share your .env file or API key.
